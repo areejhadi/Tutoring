@@ -1,0 +1,187 @@
+
+
+:root{
+    --orange : #FF6E00;
+    --lightGreen: #00FF6E;
+    --lightPurple: #6E00FF;
+    --light: #f6f2f5;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+   background-image: linear-gradient(to top, rgba(256, 256, 256, 0.3), rgba(246, 242, 245, 1)),
+    url('https://images.pexels.com/photos/3807755/pexels-photo-3807755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    /* background-image:url() ; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+
+.logo{
+height: 100px;
+width: 100px;
+}
+
+.container{
+list-style: none;
+}
+
+.nav-links ul{
+list-style: none;
+/* padding: 0;
+margin: 0;
+text-align: right;
+vertical-align: top; */
+}
+
+.nav-links li{
+display: inline-block;
+}
+
+.nav-links a{
+text-decoration: none;
+color: black;
+display: block;
+padding: 20px 20px;
+font-size: 18px;
+font-weight:lighter;
+text-transform: uppercase;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+transition: background-color 0.4s;
+
+}
+
+.nav-links a:hover{
+color: rgb(203, 162, 86);
+}
+.intro{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+.outstanding{
+   width: 60%;
+   text-align: center;
+}
+
+
+
+.grps{
+    background: rgb(203, 162, 86);
+    margin: 0%;
+    text-align: center;
+    padding-top: 5%;
+    height: 100vh;
+    background-image: linear-gradient(to right, white, orange);
+}
+
+.grp{
+   
+    padding-top: 10%;
+    background: rgb(203, 162, 86);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10%;
+    background-image: linear-gradient(to right, white, orange);
+
+
+}
+
+.higher{
+    
+    padding: 5%;
+    border-radius: 10px;
+    width: 40%;
+    border: solid;
+    flex-basis: 30%;
+}
+
+.foundation{
+    padding: 5%;
+    border-radius: 10px;
+    width: 40%;
+    border: solid;
+    flex-basis: 30%;
+}
+
+
+.intro{
+    padding: 20px;
+    font-size:larger;
+    font-family:Arial;
+
+    
+}
+
+.btns-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px;
+
+}
+.home-btn{
+  color: black;
+    background-color: var(--light);
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    margin: 10px;
+}
+
+.home-btn:hover{
+    background-color: rgba(246, 242, 245, 0.6);
+}
+
+/*one to one lessons*/
+
+.individual{
+    margin-top: 90px;
+}
+
+/* Footer */
+
+.footer-content2{
+margin-top: 10px;
+width: 90%;
+padding-right: 100px;
+padding-left: 10px;
+background: rgb(234, 203, 146);
+display: flex;
+}
+
+
+.footer div{
+    text-align: center;
+}
+
+.pt1{
+    flex-grow: 2;
+}
