@@ -1,0 +1,174 @@
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+   background-image: linear-gradient(to top, rgba(256, 256, 256, 0.3), rgba(246, 242, 245, 1)),
+    url('https://images.pexels.com/photos/3807755/pexels-photo-3807755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    /* background-image:url() ; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.logo{
+
+height: 100px;
+width: 100px;
+margin-right: auto;
+}
+
+.container{
+list-style: none;
+}
+
+.nav-links ul{
+list-style: none;
+padding: 0;
+margin: 0;
+text-align: right;
+vertical-align: top;
+}
+
+.nav-links li{
+display: inline-block;
+}
+
+.nav-links a{
+text-decoration: none;
+color: black;
+display: block;
+padding: 20px 20px;
+font-size: 18px;
+font-weight:lighter;
+text-transform: uppercase;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+transition: background-color 0.4s;
+
+}
+
+.nav-links a:hover{
+color: rgb(203, 162, 86);
+}
+.intro{
+    height: 100vh;
+}
+
+.outstanding{
+    padding: 10px;
+}
+h2{
+    padding: 5px;
+}
+p{
+    padding: 5px;
+    font-size:x-large;
+}
+.grps{
+    margin: 0%;
+    text-align: center;
+    padding-top: 5%;
+    height: 100vh;
+}
+
+.grp{
+   
+    padding-top: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10%;
+
+
+}
+
+.higher{
+    
+    padding: 5%;
+    border-radius: 10px;
+    width: 40%;
+    border: solid;
+    flex-basis: 30%;
+    background-color: #f6f2f5;
+}
+
+.foundation{
+    padding: 5%;
+    border-radius: 10px;
+    width: 40%;
+    border: solid;
+    flex-basis: 30%;
+    background-color: #f6f2f5;
+}
+
+
+.intro{
+    padding: 20px;
+    font-size:larger;
+    font-family:Arial;
+
+    
+}
+
+.btn{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px;
+
+}
+.group{
+  color: black;
+    background-color: rgb(203, 162, 86);
+    height: 50px;
+    width: 135px;
+    border-radius: 10px;
+    border: none;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    margin: 10px;
+}
+
+.group:hover{
+    opacity: 0.5;
+}
+
+.one{
+    color: black;
+    background-color: rgb(203, 162, 86);
+    height: 50px;
+    width: 140px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    cursor: pointer;
+    border-style: solid;
+    border: none;
+    transition: opacity 0.15s;
+    margin: 10px;
+
+}
+
+
+.one:hover{
+    opacity: 0.5;
+
+}
+
+/*one to one lessons*/
+
+.individual{
+    margin-top: 90px;
+}
